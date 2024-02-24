@@ -48,3 +48,5 @@ export const chartConfig = {
 };
 
 11. try the app - npm start
+
+12. Lets see what comes next
