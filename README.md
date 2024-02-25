@@ -49,4 +49,4 @@ export const chartConfig = {
 
 11. try the app - npm start
 
-12. Lets see what comes next
+12. Clear out App.css since we dont need it for now since we are using Tailwind.
