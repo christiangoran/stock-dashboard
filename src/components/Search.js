@@ -1,6 +1,7 @@
 import React from "react";
 import { mockSearchResults } from "../constants/mock";
 import { useState } from "react";
+import { Xicon, SearchIcon } from "@heroicons/react/solid";
 
 const Search = () => {
   const [input, setInput] = useState("");
@@ -16,7 +17,7 @@ const Search = () => {
   };
 
   return (
-    <div className="flex item-center my-4 border-2 rounded-md relative z-50 w-96 bg-white border-neutral-200">
+    <div className="flex items-center my-4 border-2 rounded-md relative z-50 w-96 bg-white border-neutral-200">
       <input
         type="text"
         value={input}

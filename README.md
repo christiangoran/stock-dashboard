@@ -24,6 +24,7 @@ content: [
 7. Then add heroicons
 
 - npm install @heroicons/react recharts
+  (import { Xicon, SearchIcon } from "@heroicons/react/solid";) - This is how it is imported
 
 8. Use Finnhub.io to access the free api-key
 
